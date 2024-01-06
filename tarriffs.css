@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./rasm/images.jpg);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+    height: 150vh;
+}
+.header .top{
+    position: relative;
+    top: 140px;
+    left: 35%;
+    font-size: 50px;
+    color: white;
+}
+#sec{
+    position: relative;
+    right: 10%;
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 15%;
+    left: 35%;
+    width: 500px;
+    height: 700px;
+
+}
+#head{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 3%;
+    top: 5%;
+}
+.container .gold a i{
+    font-size:60px;
+    color: darkblue;
+    position: relative;
+    bottom: 10%;
+}
+.container .silver a i{
+    font-size:60px;
+    color: darkblue;
+    position: relative;
+    bottom: 10%;
+}
+.container .platinum a i{
+    font-size:60px;
+    color: darkblue;
+    position: relative;
+    bottom: 10%;
+}
+.container .gold{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    right: 50px;
+    background-color: aqua;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+
+.container .silver{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+
+.container .platinum{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+    background-color: aqua;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+.container .gold a{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.container .silver a{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.container .platinum a{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.container .gold p{
+    position: relative;
+    top: 15%;
+    color: #fff;
+}
+.container .silver p{
+    position: relative;
+    top: 15%;
+    color: #fff;
+}
+.container .platinum p{
+    position: relative;
+    top: 15%;
+    color: #fff;
+}
+#like{
+    position: relative;
+    top: 20%;
+    left: 30px;
+    color: darkblue;
+    font-size: 20px;
+}
+#like1{
+    position: relative;
+    top: 20%;
+    left: 30px;
+    color: darkblue;
+    font-size: 20px;
+}
+#like2{
+    position: relative;
+    top: 20%;
+    left: 30px;
+    color: darkblue;
+    font-size: 20px;
+}
+#comment{
+    position: relative;
+    top: 20%;
+    left: 50px;
+    color: darkblue;
+    font-size: 20px;
+}
+#comment1{
+    position: relative;
+    top: 20%;
+    left: 50px;
+    color: darkblue;
+    font-size: 20px;
+}
+#comment2{
+    position: relative;
+    top: 20%;
+    left: 50px;
+    color: darkblue;
+    font-size: 20px;
+}
+#share{
+    position: relative;
+    top: 20%;
+    left: 70px;
+    color: darkblue;
+    font-size: 20px;
+}
+#share1{
+    position: relative;
+    top: 20%;
+    left: 70px;
+    color: darkblue;
+    font-size: 20px;
+}
+#share2{
+    position: relative;
+    top: 20%;
+    left: 70px;
+    color: darkblue;
+    font-size: 20px;
+}
+.container .gold a button{
+    position: relative;
+    top: 10%;
+    right: 20px;
+    width: 100px;
+    height: 20px;
+    border: 3px solid darkcyan;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+.container .silver a button{
+    position: relative;
+    top: 10%;
+    right: 20px;
+    width: 100px;
+    height: 20px;
+    border: 3px solid darkcyan;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+.container .platinum a button{
+    position: relative;
+    top: 10%;
+    right: 20px;
+    width: 100px;
+    height: 20px;
+    border: 3px solid darkcyan;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+.end a button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    bottom: 160px;
+    left: 46%;
+    border-color: #00fffb;
+    border-radius:30px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+    background-color: #00fffb;
+}
+.footer{
+    height: 100px;
+    margin-top: 130px;
+    border: 3px solid aqua;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+    border-radius: 10px;
+}
+
+.footer h2{
+    position: relative;
+    top: 5px;
+    color: #fff;
+    text-align: center;
+    
+}
+.footer .icons {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+

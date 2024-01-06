@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   
+    height: 222vh;
+    background-image: url('./rasm/images.jpg');
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover; 
+    
+}
+.container {
+    height: 200px;
+    border: 3px solid rgb(197, 55, 210);
+    box-shadow: 0 0 40px #00fffb, 0 0 40px #0081bc;
+    border-radius: 10px;
+}
+.head{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.head a img {
+    position: relative;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.main a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-size: 37px;
+    color: white;
+    margin-left: 100px;
+    left: 350px;
+    bottom: 120px;
+    text-shadow: 0 0 40px #00fffb, 0 0 60px #0081bc;
+}
+hr {
+    margin-top: 60px;
+}
+.container p{
+    position: relative;
+    text-decoration: none;
+    top: 30px;
+    left: 40%;
+    color: #00fffb;
+    font-size: 50px;
+}
+.works {
+    position: relative;
+    top: 120px;
+    left: 270px;
+    height: 700px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border: 3px solid rgb(197, 55, 210);
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+.works img {
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+}
+.btn a button{
+    position: relative;
+   width: 300px;
+   height: 40px;
+   top: 65px;
+   left: 38%;
+   border-color: #00fffb;
+   border-radius:30px;
+   box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+   background-color: #00fffb;
+}
+.footer{
+    height: 100px;
+    margin-top: 400px;
+    border: 3px solid aqua;
+    box-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+    border-radius: 10px;
+}
+
+.footer h2{
+    position: relative;
+    top: 5px;
+    color: #fff;
+    text-align: center;
+    
+}
+.footer .icons {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
